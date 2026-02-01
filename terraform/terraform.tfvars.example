@@ -1,0 +1,11 @@
+project_id        = "your-gcp-project-id"
+project_number   = "your-gcp-number"
+region            = "us-central1"
+gmail_user_email  = "your-email@email.com"
+
+gmail_client_id     = "your-id.apps.googleusercontent.com"
+gmail_client_secret = "your-secret-key"
+gmail_refresh_token = "1//your-long-refresh-token"
+gmail_fetching_labels = "Comma Separated labels as they appear in your web browser"
+
+backend_url = "http://localhost:8000"
