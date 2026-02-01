@@ -133,6 +133,12 @@ terraform apply
 You are going to have to enable a lot of services as you run Terraform Apply. TO DO: Add a way to enable
 services automatically.
 
+## Destroying infrastructure
+
+You can use terraform destroy command. However, there's a lot of dependencies that can generate a lot of headache if
+not handled properly. My suggestions is for run the destroy command, delete the google project you were working on
+and start with a fresh one, not ideal, but hopefully I can add workarounds to this soon.
+
 ---
 
 ## Setup Watch Function
